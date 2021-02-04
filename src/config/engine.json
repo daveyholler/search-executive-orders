@@ -1,0 +1,36 @@
+{
+  "engineName": "executive-orders",
+  "endpointBase": "https://e7a30855d5324b7bbb048def4afacfe3.ent-search.europe-west1.gcp.cloud.es.io",
+  "searchKey": "search-y1f9s8jdvt5658uny9anmxaq",
+  "resultFields": [
+    "disposition_notes",
+    "document_number",
+    "end_page",
+    "citation",
+    "year",
+    "pdf_url",
+    "type",
+    "signing_date",
+    "title",
+    "body_html_url",
+    "subtype",
+    "start_page",
+    "json_url",
+    "html_url",
+    "full_text_xml_url",
+    "publication_date",
+    "executive_order_number",
+    "president",
+    "id"
+  ],
+  "sortFields": [
+    "year",
+    "president"
+  ],
+  "facets": [
+    "year",
+    "president"
+  ],
+  "titleField": "title",
+  "urlField": "pdf_url"
+}
